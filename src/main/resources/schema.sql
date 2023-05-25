@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS personne (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(32),
+    prenom VARCHAR(32)
+);
